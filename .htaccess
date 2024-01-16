@@ -1,0 +1,19 @@
+
+# HTID:22432288: DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES BELOW
+php_value display_errors 1
+# DO NOT REMOVE OR MODIFY THIS LINE AND THE LINES ABOVE HTID:22432288:
+
+RewriteEngine On
+RewriteRule ^inicio$ /index.html [L]
+RewriteRule ^sobre_amor_patitas$ /about.html [L]
+RewriteRule ^perritos$ /perros.php [L]
+RewriteRule ^gatitos$ /gatos.php [L]
+RewriteRule ^contacto$ /tipo_contacto.html [L]
+RewriteRule ^formato_de_adopcion$ /contacto_adopt.php [L]
+RewriteRule ^dar_en_adopcion$ /contacto_dar_adop.php [L]
+RewriteRule ^contactanos$ /contacto.php [L]
+RewriteRule ^chat$ /chat.html [L]
+RewriteRule ^test$ /test.html [L]
+RewriteRule ^hacer_el_test$ /hacer_test.html [L]
+RewriteRule ^terminos_y_condiciones$ /T&C.html [L]
+RewriteRule ^exito$ /exito.php [L]
